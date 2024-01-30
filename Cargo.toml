@@ -48,7 +48,7 @@ thiserror = "1.0"
 
 k256 = "0.13"
 keccak-asm = { version = "0.1.0", default-features = false }
-tiny-keccak = "2.0"
+tiny-keccak = { git = "ssh://git@github.com/succinctlabs/tiny-keccak-private.git" }
 
 # misc
 alloy-rlp = { version = "0.3", default-features = false }
