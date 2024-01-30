@@ -32,7 +32,8 @@ heck = "0.4"
 hex.workspace = true
 indexmap = "2.0"
 proc-macro-error = "1.0"
-tiny-keccak = { workspace = true, features = ["keccak"] }
+tiny-keccak = { workspace = true, git = "ssh://git@github.com/succinctlabs/tiny-keccak-private.git", rev="8c245d3", features = ["keccak", "zkvm_backend"]  }
+
 
 # json
 alloy-json-abi = { workspace = true, optional = true }
