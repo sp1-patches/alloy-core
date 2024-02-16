@@ -23,7 +23,7 @@ hex-literal.workspace = true
 hex.workspace = true
 itoa.workspace = true
 ruint.workspace = true
-tiny-keccak = { workspace = true, git = "https://github.com/succinctlabs/tiny-keccak-private.git", features = ["keccak"] }
+tiny-keccak = { workspace = true, git = "https://github.com/succinctlabs/tiny-keccak-private.git", branch = "chris/test" }
 keccak-asm = { workspace = true, optional = true }
 
 # macros
